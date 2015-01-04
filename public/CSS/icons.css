@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'awesome';
+    src: url('../Fonts/fontawesome-webfont.eot?v=3.0.1');
+    src: url('../Fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+        url('../Fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+        url('../Fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'uberfont';
+    src: url('../Fonts/uberfont.eot');
+    src: url('../Fonts/uberfont.eot?#iefix') format('eot'), url('../Fonts/uberfont.ttf') format('truetype'), url('../fonts/uberfont.woff') format('woff'), url('../Fonts/uberfont.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    -webkit-font-smoothing: antialiased;
+}
+li[class^="icon-"], li[class*=" icon-"] {
+    display: block;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before{
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+}
+.btn-icon
+{
+	border:none;
+	background:#fff;
+	width:30px;
+	height:30px;
+}
+.icon-create:before
+{
+	content:"\F0E3";
+	font-size:16px;
+	font-style:normal;
+}
+.icon-create{font-family:uberfont;}
+.btn-icon-create
+{
+	background:#428bca;
+	color:#fff;
+}
+.btn-icon-create:hover
+{
+	background:#fff;
+	color:#428bca;
+}
+.icon-del:before
+{
+	content:"\F014";
+	font-size:16px;
+	font-style:normal;
+}
+.icon-del{font-family:FontAwesome;}
+.btn-icon-del
+{
+	background:#d15b47;
+	color:#fff;
+}
+.btn-icon-del:hover
+{
+	color:#d15b47;
+	background:#fff;
+}
+.icon-rename:before
+{
+	content:"\F044";
+	font-size:16px;
+	font-style:normal;
+}
+.icon-view:before
+{
+	content:"\F06E";
+	font-size:16px;
+	font-style:normal;
+}
+.icon-view{font-family:uberfont;}
+.icon-rename{font-family:FontAwesome;}
+.icon-folder-open:before, .icon-leaf:before, .icon-minus-sign:before, .icon-plus-sign:before
+{
+	content:'\F114';
+	font-size:24px;
+	font-weight:bold;
+}
+.icon-folder-open, .icon-leaf, .icon-minus-sign, .icon-plus-sign{font-family:FontAwesome;}
+
+
